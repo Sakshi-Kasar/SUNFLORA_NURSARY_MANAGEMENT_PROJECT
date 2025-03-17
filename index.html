@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+h1{
+    text-align: center;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-decoration: dashed;
+    text-shadow:#04AA6D;
+
+}
+button{
+    bottom: unset;
+}
+}
+h5{
+    text-align:center;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color:palegreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 200;
+}
+</style>
+</style>
+</head>
+<body>
+  <h1>  <img src="a5.jpg" width="80" height="50">
+    SUNFLORA NURSARY
+<br>Wadala Mahadeo Shrirampur <img src="a5.jpg" width="70" height="50">
+</h1>
+<ul>
+    
+    <li><img src="f12.png" width="70" height="50"></li>
+     </li> <li><a class="active" href="#home">Home</a></li>
+  <li><a href="adminlogin.html">Admin</a></li>
+  
+  <li><a href="plants.html">Plants</a></li>
+  
+  <li><a href="contact.html">Contact</a></li>
+
+  <li><a href="#">About</a></li>
+  
+ </ul>
+
+<div class="w3-content w3-section" style="max-width:1000px">
+    <img class="mySlides" src="n1.jpg" style="width:145%" height="500"> 
+    <div class="text-block" width="s">
+        <h2>Welcome to Our Plant world
+        <h4>Plant trees.<br>
+             plant life.<br>
+             plant your future..</h4></h2>
+       </div>
+       <img class="mySlides" src="f1.jpg" style="width:145%"height="500">
+       
+    <img class="mySlides" src="f11.jpg" style="width:145%" height="500">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 2 seconds
+  }
+  </script>
+  </td></table>
+  
+<marquee direction="left" loop="20" scrollamount="5" bgcolor="pink" height="20">Sunflora Nursary..Wadala Mahadeo Shrirampur..Must visit once..</marquee>
+
+
+
+
+
+
+  
+</body>
+</html>
+
+

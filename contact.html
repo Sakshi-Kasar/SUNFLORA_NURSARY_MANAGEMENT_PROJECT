@@ -1,0 +1,134 @@
+<html>
+<head>
+   <script language="javascript" src="contact.js">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="contact.css">
+    <title>Contact us Page</title>
+</head>
+<body background="f8.jpg">  
+    <header>
+        <button class="hamburger" id="hamburger-icon">
+            <span onclick="openNavbar()"> ☰</span>
+
+        </button>
+        <div class="logo"><b><font color="green" size="70">Sunflora</font></b></div>
+
+        <nav id="nav-menu">
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+            <li><a href="adminlogin.html">Admin</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+
+                <li><a href="plants.html">Plants</a></li>
+
+            </ul>
+
+        </nav>
+
+        <button class="reachUs-button">Call us</button>
+
+    </header>
+ 
+
+    <section class="banner">
+
+        <img src="l3.jpg" width="70" height="70" alt="Welcome to our Contact Us page">
+
+        <h1>Contact With Us</h1>
+
+        <p>
+
+          We're here to answer any questions you may have.
+
+          </p>
+
+    </section>
+ 
+
+    <!-- Contact form -->
+
+    <section class="contact-form">
+
+        <div class="form-container">
+
+            <h2>Add Your Details</h2>
+
+            <form action="contact.php" method="POST">
+ 
+
+                <label for="name">Name: </label>
+
+                <input type="text" id="name" name="name" required>
+ 
+
+                <label for="email">Email: </label>
+
+                <input type="email" id="email" name="email" required>
+ 
+
+                <label for="phone">Phone: </label>
+
+                <input type="tel" id="phone" name="phone">
+ 
+
+                <label for="message">Message: </label>
+
+                <textarea id="message" name="message" rows="4" required></textarea>
+ 
+<h1>
+                <img src="a10.jpg" width="150" height="150">
+                <button type="submit onclick=show()" class="submit-button">Submit</button>
+            </h1>        </form>
+
+        </div>
+
+    </section>
+ 
+
+    <!-- Company contact info -->
+
+    <section class="contact-info">
+
+        <h2>Contact Information</h2>
+
+        <address>
+
+            Sunflora Nursary Management..<br>
+
+            413739 WadalaMahadeo<br>
+
+            Shrirampur<br>
+
+            Phone: <a href="tel:1234567890">123-456-7890</a><br>
+
+            Email: <a href="mailto:info@example.com">info@example.com</a>
+
+        </address>
+
+    </section>
+ 
+
+    <!-- Footer section -->
+
+    <footer>
+
+        <p>
+
+          ©Sunfloranursary@gmail.com
+
+          </p>
+
+    </footer>
+
+   
+</body>
+ 
+
+</html>
